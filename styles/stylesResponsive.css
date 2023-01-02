@@ -9,19 +9,7 @@
       display: inline-block;
   }
 
-  html, body{
-    display: flexbox;
-    transform: scale(30%);
-    transform-origin: top left; 
-    min-width: 200%;
-    /* overflow-y: hidden; 
-    overflow-x: hidden;  */
-    /* height: 200%;
-    min-width: 8000px; */ 
-    /* transform-origin: top left; */
-    /* transform: scale(50%);
-    */
-  } 
+
 
   .mySlidesContactMe{
     display: inline-block;
