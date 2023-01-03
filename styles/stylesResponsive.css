@@ -13,6 +13,20 @@
     display: inline-block;
   } 
 
+
+  html, body{
+    display: flexbox;
+    transform: scale(50%);
+    transform-origin: top left; 
+    min-width: 100%;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    /* height: 200%;
+    min-width: 8000px; */ 
+    /* transform-origin: top left; */
+    /* transform: scale(50%);
+    */
+  } 
   .contentLeftSide{
     margin-bottom: 124.7%;
     position: fixed;
@@ -22,7 +36,7 @@
   .labelProjects{
     margin-left: 50.3%;
     margin-top: 35%;
-    width: 34.5%;
+    width: 35%;
     font-size: 95px;
     color: white;
     z-index: 35;
