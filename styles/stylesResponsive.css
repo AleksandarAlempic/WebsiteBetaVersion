@@ -16,7 +16,7 @@
   
   html, body{
     display: flexbox;
-    transform: scale(45%);
+    transform: scale(47%);
     transform-origin: top left; 
     min-width: 200%;
     overflow-y: hidden; 
