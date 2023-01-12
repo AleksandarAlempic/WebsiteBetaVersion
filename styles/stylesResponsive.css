@@ -16,11 +16,11 @@
   
   html, body{
     display: flexbox;
-    transform: scale(49%);
+    transform: scale(50%);
     transform-origin: top left; 
     min-width: 200%;
-    overflow-y: hidden; 
-    overflow-x: hidden; 
+    overflow-y: scroll; 
+    overflow-x: hidden;
     /* height: 200%;
     min-width: 8000px; */ 
     /* transform-origin: top left; */
@@ -55,12 +55,31 @@
   z-index: 1;
   color: white;
   text-decoration: none;
-  font-size: 83px;
+  font-size: 81.5px;
+}
+
+.labelforProject{
+  margin-left: 18%;
+  margin-top: 72%;
+  font-size: 82px;
+  color: white;
+  opacity: 0.7;
+  background: rgb(25,21,20); 
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.labelforWarehouse{
+  margin-left: 30%;
+  font-size: 82px;
+  color: white;
+  opacity: 0.7;
+  background: rgb(25,21,20); 
+  background: rgba(0, 0, 0, 0.6);
 }
 
  .labelProjects{
     margin-left: 29.5%;
-    margin-top: 34%;
+    margin-top: 38%;
     width: 35%;
     font-size: 95px;
     color: white;
@@ -351,8 +370,8 @@
 
   .HomepageMobileView{
     display: block;
-    width: 1465px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     font-size: 90px;
     margin-left: 3%;
     margin-top: 21%;
@@ -366,35 +385,36 @@
  
   .Iframe1{
     text-align: end;
-    width: 980px;
+    width: 895px;
+    height: 2%;
     padding-bottom: 2%;
-    margin-left: 11.7%;
-    margin-top: 0.1%; 
-    z-index: 25;
+    margin-left: 17.7%;
+    z-index: 1;
     flex: 30%;
   }
 
   .Iframe2{
     text-align: end;
-    width: 980px;
+    width: 895px;
     height: 2%;
     padding-bottom: 2%;
-    margin-left: 11.7%;
+    margin-left: 17.7%;
     z-index: 1;
     flex: 30%;
   }
 
   .Iframe3{
     text-align: end;
-    width: 980px;
-    padding-bottom: 1.5%;
-    margin-left: 11.7%;
+    width: 895px;
+    height: 2%;
+    padding-bottom: 2%;
+    margin-left: 17.7%;
     z-index: 1;
     flex: 30%;
 }
 .portfolioImg{
   width: 100%; 
-  height: 600px;
+  height: 550px;
 }
 
 }
