@@ -51,6 +51,17 @@
     display: inline;
 }
 
+.fadeLeftBackground {
+  animation-name: fadeLeftBackground;
+  animation-duration: 3.5s;
+  animation-direction: reverse;
+}
+
+/* @keyframes fadeLeftBackground {
+  from {opacity: 1} 
+  to {opacity: .4}
+} */
+
 .linkClass{
   z-index: 1;
   color: white;
@@ -59,20 +70,30 @@
 }
 
  .labelProjects{
-    margin-left: 29.5%;
-    margin-top: 34%;
-    width: 35%;
-    font-size: 95px;
+    margin-left: 58%;
+    margin-top: 34.5%;
+    width: 41.5%;
+    font-size: 115px;
     color: white;
-    z-index: 35;
     background: rgb(25,21,20);
     background: rgba(0, 0, 0, 0.3);  /*Black background with 0.5 opacity */
   }
 
   .LabelForContactFullName{
     position: absolute;
-    margin-left: 2%;
-    margin-top: 4%;
+    margin-left: 9%;
+    margin-top: 1%;
+    font-size: 85px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    z-index: 3;
+  }
+
+  .LabelForContactBody{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 1%;
     font-size: 85px;
     font-style: normal;
     color: white;
@@ -82,8 +103,8 @@
 
   .LabelForContactMeForm{
     position: absolute;
-    margin-left: 3%;
-    margin-top: 70.9%;
+    margin-left: 30%;
+    margin-top: 62%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -95,7 +116,7 @@
 
   .labelForExpirience{
     position: absolute;
-    margin-left: 3%;
+    margin-left: 28.5%;
     margin-top: 84%;
     font-size: 100px;
     font-style: normal;
@@ -106,18 +127,33 @@
     z-index: 3;
   }
 
+  .labelForOther{
+    position: absolute;
+    margin-left: 26.4%;
+    margin-top: 21.9%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+
+  
+
   .ContactMeLeftFirstBackground{
     width: 4095px;
     height: 2850px;
     }
 
   .ContactMeForm{
-    width: 1465px;
-    height: 1420px;
+    width: 1400px;
+    height: 1540px;
     font-size: 90px;
     overflow: hidden;
-    margin-left: 3%;
-    margin-top: 77.9%;
+    margin-left: 4.85%;
+    margin-top: 71%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -129,8 +165,8 @@
 
   .labelForContactMe{
     position: absolute;
-    margin-left: 3%;
-    margin-top: 16.9%;
+    margin-left: 33%;
+    margin-top: 21.9%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -139,13 +175,22 @@
     background: rgba(0, 0, 0, 0.8);
     z-index: 3;
   }
-   
+  .LabelForContactEmail{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 0.1%;
+    font-size: 85px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    z-index: 3;
+  }
   .ContactMe{
     width: 1465px;
-    height: 680px;
-    font-size: 90px;
+    height: 500px;
+    font-size: 80px;
     margin-left: 3%;
-    margin-top: 25.9%;
+    margin-top: 30.9%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -157,7 +202,7 @@
 
   .labelForIntro{
     position: absolute;
-    margin-left: 3%;
+    margin-left: 34.1%;
     margin-top: 22%;
     font-size: 100px;
     font-style: normal;
@@ -172,6 +217,19 @@
     position: absolute;
     margin-left: 3%;
     margin-top: 120.2%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+
+  .labelForHobbies{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 65%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -212,6 +270,27 @@
     background: rgba(0, 0, 0, 0.9);
   }
 
+  .Hobbies{
+    width: 1465px;
+    height: 500px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 74.5%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  .mobileFormView{
+    color: white;
+  }
+   .desktopFormView{
+    display: none;
+   }
   .audioContainer{
     position: absolute;
     float: left;
@@ -230,13 +309,13 @@
     border-radius: 10%;
   }
 
-  .divIntroduction1{
+  .divContactMe{
     width: 1400px;
-    height: 800px;
+    height: 450px;
     position: absolute;
-    font-size: 87px;
-    margin-left: 65px; 
-    margin-top: 50px;
+    font-size: 83px;
+    margin-left: 3%; 
+    margin-top: 1%;
     margin-right: 10px;
     font-style: normal;
     opacity: 0.75;
@@ -252,6 +331,21 @@
     /* animation: mymove 6s infinite;
     animation-delay: 5.5s; */
     margin-left: 65px; 
+    margin-top: 40px;
+    font-style: normal;
+    /* opacity: 0.75; */
+    background: none;
+    z-index: 3;
+  }
+
+  .divHobbies  {
+    width: 1400px;
+    height: 500px;
+    position: relative;
+    font-size: 85px;
+    /* animation: mymove 6s infinite;
+    animation-delay: 5.5s; */
+    margin-left: 5px; 
     margin-top: 40px;
     font-style: normal;
     /* opacity: 0.75; */
@@ -278,11 +372,11 @@
     font-size: 85px;
     font-weight: 550;
     font-style: normal;
-    width: 350px;
+    width: 435px;
     height: 200px;
-    margin-left: 35%;
-    margin-bottom: 85%;
-    border-radius: 10%;
+    margin-left: 99%;
+    margin-top: 0.5%;
+    border-radius: 9.5%;
     color: black;
      /* background: rgb(25,21,20);  */
     /* background: rgba(0, 0, 0, 0.9); */
@@ -290,11 +384,11 @@
   }
 
   .inputEmail{
-    margin-left: 13%;
-    margin-top: 23%;
-    width:700px;
+    margin-left: 12.3%;
+    margin-top: 11%;
+    width:1000px;
     height:120px;
-    font-size: 70px;
+    font-size: 80px;
     color: white;
     border-color: white;
     background: rgb(25,21,20); 
@@ -303,11 +397,11 @@
 
 
   .inputFullName{
-    margin-left: 4.3%;
-    margin-top: 24.3%;
-    width:650px;
+    margin-left: 12.3%;
+    margin-top: 12.3%;
+    width:1000px;
     height:120px;
-    font-size: 70px;
+    font-size: 80px;
     color: white;
     border-color: white;
     background: rgb(25,21,20); 
@@ -315,10 +409,10 @@
   }
 
   .inputBody{
-    margin-left: 6.5%;
-    margin-top: 9.5%;
-    width:1150px;
-    height:800px;
+    margin-left: 12.3%;
+    margin-top: 11.5%;
+    width:1000px;
+    height:470px;
     font-size: 80px;
     color: white;
     background: rgb(25,21,20); 
@@ -343,7 +437,7 @@
     height: 100%;
     background: url('../images/HomePage/HomePageRight2.jpg');
   } 
-
+  
   .next {
     right: 2.5%;
     border-radius: 3px 0 0 3px;
@@ -351,8 +445,7 @@
 
   .HomepageMobileView{
     display: block;
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 30%;
     font-size: 90px;
     margin-left: 3%;
     margin-top: 21%;
@@ -369,7 +462,7 @@
     width: 980px;
     padding-bottom: 2%;
     margin-left: 11.7%;
-    margin-top: 0.1%; 
+    margin-top: 0.05%; 
     z-index: 25;
     flex: 30%;
   }
@@ -392,10 +485,14 @@
     z-index: 1;
     flex: 30%;
 }
+
 .portfolioImg{
+  margin-top: -28px;
   width: 100%; 
   height: 600px;
 }
+
+
 
 }
 

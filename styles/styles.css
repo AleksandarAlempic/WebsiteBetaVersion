@@ -87,6 +87,10 @@ ul {
     margin-top: 0.02%;
   }
 
+  .contentRightSideText{
+    margin-top:5%;
+  }
+
 .HomePageLeft{
   min-width: 4095px;
   min-height: 2950px;
@@ -274,8 +278,22 @@ ul {
               z-index: 3;
               color: white;
               background: rgb(30,21,20); 
-              background: rgba(0, 0, 0, 0.9);
-             
+              background: rgba(0, 0, 0, 0.9);   
+            }
+
+            .OtherExpirience{
+              width: 2300px;
+              height: 680px;
+              font-size: 90px;
+              margin-left: 20%;
+              margin-top: 7.9%;
+              position: absolute;
+              opacity: 0.75;
+              overflow: hidden;
+              z-index: 3;
+              color: white;
+              background: rgb(30,21,20); 
+              background: rgba(0, 0, 0, 0.9);   
             }
 
             .labelForExpirience{
@@ -364,6 +382,14 @@ ul {
               color: white;
               background: rgb(30,21,20); 
               background: rgba(0, 0, 0, 0.9);
+            }
+
+            .mobileFormView{
+              color: white;
+            }
+
+            .desktopFormView{
+              color: white;
             }
 
             .divIntroduction1  {
@@ -535,7 +561,7 @@ ul {
 
 
             .inputFullName{
-              margin-left: 10.5%;
+              margin-left: 15.5%;
               margin-top: 23%;
               width:850px;
               height:120px;
@@ -550,7 +576,7 @@ ul {
               margin-left: 6.5%;
               margin-top: 9.5%;
               width:1450px;
-              height:550px;
+              height: 700px;
               font-size: 80px;
               color: white;
               background: rgb(25,21,20); 
@@ -585,10 +611,10 @@ ul {
               font-size: 85px;
               font-weight: 550;
               font-style: normal;
-              width: 350px;
-              height: 200px;
-              margin-left: 45%;
-              margin-bottom: 85%;
+              width: 380px;
+              height: 230px;
+              margin-top: 10%;
+              margin-left: 36.5%;
               border-radius: 10%;
               color: black;
                /* background: rgb(25,21,20);  */
@@ -598,6 +624,21 @@ ul {
 
             .divExpirience1  {
               width: 2155px;
+              height: 500px;
+              position: relative;
+              font-size: 85px;
+              /* animation: mymove 6s infinite;
+              animation-delay: 5.5s; */
+              margin-left: 65px; 
+              margin-top: 40px;
+              font-style: normal;
+              /* opacity: 0.75; */
+              background: none;
+              z-index: 3;
+            }
+
+            .divHobbies  {
+              width: 1400px;
               height: 500px;
               position: relative;
               font-size: 85px;
@@ -788,6 +829,19 @@ img {vertical-align: middle;}
 
 .hiddenRegex{
   display: none;
+}
+
+.divContactMe{
+  width: 2300px;
+  height: 785px;
+  position: relative;
+  font-size: 87px;
+  margin-left: 65px; 
+  margin-top: 50px;
+  font-style: normal;
+  opacity: 0.75;
+  background: none;
+  z-index: 3;
 }
 
 .audioContainer{
