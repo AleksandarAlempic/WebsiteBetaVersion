@@ -4,7 +4,7 @@
 
 /* Mobile Layout */
 /* Samsung Galaxy S20 Xiaomi Mi 11i Huawei P30 */
-@media only screen and (max-width:800px){
+@media only screen and (max-width:393px){
   .divForPortfolio{
        display: inline-block;
    }
@@ -14,8 +14,11 @@
    } 
    
    
+   .classForIntroExpirience{
+     font-size: 60px;
+   }
    
-   html, body{
+   /* html, body{
      display: flexbox;
      transform: scale(50%);
      transform-origin: top left; 
@@ -27,7 +30,7 @@
      /* transform-origin: top left; */
      /* transform: scale(50%);
      */
-   } 
+  
  
  
    .main{
@@ -120,7 +123,7 @@
      position: absolute;
      margin-left: 28.5%;
      margin-top: 24%;
-     font-size: 100px;
+     font-size: 95px;
      font-style: normal;
      color: white;
      opacity: 0.9;
@@ -134,7 +137,7 @@
    }
  
    .ContactMeOnContacMe{
-     width: 1336px;
+     width: 1450px;
      height: 411px;
      font-size: 90px;
      margin-left: 3%;
@@ -157,11 +160,11 @@
  
    .ContactMeForm{
      border-radius: 3%;
-     width: 1310px;
+     width: 1450px;
      height: 1700px;
      font-size: 70px;
      overflow: hidden;
-     margin-left: 4.85%;
+     margin-left: 3.3%;
      margin-top: 75%;
      position: absolute;
      opacity: 0.75;
@@ -196,7 +199,7 @@
    }
    .ContactMe{
      border-radius: 3%;
-     width: 1345px;
+     width: 1450px;
      height: 500px;
      font-size: 70px;
      margin-left: 3%;
@@ -225,37 +228,28 @@
     
    .labelForCertification{
      position: absolute;
-     margin-left: 2%;
+     margin-left: 9%;
      margin-top: 64.2%;
-     font-size: 92px;
+     font-size: 87px;
      font-style: normal;
      color: white;
      opacity: 0.9;
      background: rgb(25,21,20);
      background: rgba(0, 0, 0, 0.8);
      z-index: 3;
-     width: 102%;
+     width: 82%;
    }
  
    .labelForHobbies{
-     position: absolute;
-     margin-left: 25%;
-     margin-top: 91%;
-     font-size: 100px;
-     font-style: normal;
-     color: white;
-     opacity: 0.9;
-     background: rgb(25,21,20); 
-     background: rgba(0, 0, 0, 0.8);
-     z-index: 3;
+    display: none;
    }
  
  
    .Introduction{
-     width: 1345px;
-     height: 800px;
+     width: 1450px;
+     height: 615px;
      font-size: 70px;
-     margin-left: 3%;
+     margin-left: 3.5%;
      margin-top: 33.2%;
      border-radius: 3%;
      position: absolute;
@@ -273,7 +267,7 @@
  
    .Expirience{
      border-radius: 3%;
-     width: 1345px;
+     width: 1450px;
      height: 400px;
      font-size: 70px;
      margin-left: 3%;
@@ -292,7 +286,7 @@
      width: 1345px;
      height: 500px;
      font-size: 70px;
-     margin-left: 3%;
+     margin-left: 3.5%;
      margin-top: 74.5%;
      position: absolute;
      opacity: 0.75;
@@ -313,7 +307,7 @@
      position: absolute;
      float: left;
      margin-left: 21%;
-     margin-top: 140%;
+     margin-top: 130%;
      width: 875px;
      height: 715px;
      background: rgb(25,21,20); /* Fallback color */
@@ -332,7 +326,7 @@
      width: 2300px;
      height: 785px;
      position: relative;
-     font-size: 75px;
+     font-size: 65px;
      margin-left: 65px;
      margin-top: 50px;
      font-style: normal;
@@ -348,7 +342,7 @@
      width: 1400px;
      height: 450px;
      position: absolute;
-     font-size: 70px;
+     font-size: 67px;
      margin-left: 3%; 
      margin-top: 1%;
      margin-right: 10px;
@@ -359,12 +353,12 @@
    }
  
    .Technologies{
-     width: 1345px;
+     width: 1450px;
      height: 500px;
      font-size: 70px;
-     margin-left: 3%;
+     margin-left: 3.5%;
      border-radius: 3%;
-     margin-top: 101%;
+     margin-top: 87.5%;
      position: absolute;
      opacity: 0.75;
      overflow: hidden;
@@ -374,11 +368,24 @@
      background: rgba(0, 0, 0, 0.9);
    }
  
+   .labelForTechnologies{
+     position: absolute;
+     margin-left: 33%;
+     margin-top: 77.8%;
+     font-size: 100px;
+     font-style: normal;
+     color: white;
+     opacity: 0.9;
+     background: rgb(25,21,20);
+     background: rgba(0, 0, 0, 0.8);
+     z-index: 3;
+   }
+ 
    .divExpirience1  {
      width: 1400px;
      height: 500px;
      position: relative;
-     font-size: 70px;
+     font-size: 80px;
      /* animation: mymove 6s infinite;
      animation-delay: 5.5s; */
      margin-left: 65px; 
@@ -388,6 +395,38 @@
      background: none;
      z-index: 3;
    }
+ 
+   .divExpirience2  {
+     width: 1400px;
+     height: 500px;
+     position: relative;
+     font-size: 60px;
+     /* animation: mymove 6s infinite;
+     animation-delay: 5.5s; */
+     margin-left: 65px; 
+     margin-top: 40px;
+     font-style: normal;
+     /* opacity: 0.75; */
+     background: none;
+     z-index: 3;
+   }
+  
+ 
+   .divCertification  {
+     width: 1155px;
+     height: 400px;
+     position: relative;
+     font-size: 65px;
+     animation: mymove 4s infinite;
+     animation-delay: 3.5s;
+     /* margin-left: 65px;  */
+     margin-left:5px;
+     font-style: normal;
+     /* opacity: 0.75; */
+     background: none;
+     z-index: 3;
+   }
+ 
  
    .divHobbies  {
      width: 1400px;
@@ -403,13 +442,20 @@
      background: none;
      z-index: 3;
    }
+    
+ 
+    .fontSizeForExpirience{
+     font-size: 75;
+     margin-left: 3%;
+    }
+ 
  
    .Certification{
-     width: 1345px;
-     height: 650px;
+     width: 1450px;
+     height: 550px;
      font-size: 70px;
-     margin-left: 3%;
-     margin-top: 74%;
+     margin-left: 4%;
+     margin-top: 73.2%;
      position: absolute;
      border-radius: 3%;
      opacity: 0.75;
@@ -419,7 +465,7 @@
      background: rgb(30,21,20);
      background: rgba(0, 0, 0, 0.9);
  }
-   }
+ 
  
    .btnSend{
      font-size: 70px;
@@ -544,10 +590,600 @@
    width: 100%; 
    height: 600px;
  }
- 
- 
- 
  }
+ 
+ 
+ /* Mobile Layout */
+ /* Samsung Galaxy S20 Xiaomi Mi 11i Huawei P30 */
+ @media only screen and (max-width:412px){
+   .divForPortfolio{
+        display: inline-block;
+    }
+  
+    .mySlidesContactMe{
+      display: inline-block;
+    } 
+    
+    
+    .classForIntroExpirience{
+      font-size: 60px;
+    }
+    
+    /* html, body{
+      display: flexbox;
+      transform: scale(50%);
+      transform-origin: top left; 
+      min-width: 200%;
+      overflow-y: scroll; 
+      overflow-x: hidden;
+      /* height: 200%;
+      min-width: 8000px; */ 
+      /* transform-origin: top left; */
+      /* transform: scale(50%);
+      */
+    }  */
+  
+  
+    .main{
+      display: inline-flex;
+      flex: 1; 
+      overflow: scroll;
+    }
+    .contentLeftSide{
+      margin-bottom: 124.7%;
+      display: flex;
+      position: fixed;
+      width: 100%;
+    }
+  
+    .text{
+      margin-right: 40px;
+      margin-left: 1%;
+      padding-bottom: 10px;
+      color: white;
+      font-style: normal;
+      font-size: 80px;
+      display: inline;
+  }
+  
+  .fadeLeftBackground {
+    animation-name: fadeLeftBackground;
+    animation-duration: 3.5s;
+    animation-direction: reverse;
+  }
+  
+  /* @keyframes fadeLeftBackground {
+    from {opacity: 1} 
+    to {opacity: .4}
+  } */
+  
+  .linkClass{
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    font-size: 75px;
+  }
+  
+   .labelProjects{
+      margin-left: 58%;
+      margin-top: 34.5%;
+      width: 41.5%;
+      font-size: 115px;
+      color: white;
+      background: rgb(25,21,20);
+      background: rgba(0, 0, 0, 0.3);  /*Black background with 0.5 opacity */
+    }
+  
+    .LabelForContactFullName{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 1%;
+      font-size: 85px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      z-index: 3;
+    }
+  
+    .LabelForContactBody{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 1%;
+      font-size: 85px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      z-index: 3;
+    }
+  
+  
+    .LabelForContactMeForm{
+      position: absolute;
+      margin-left: 30%;
+      margin-top: 24%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+  
+    .labelForExpirience{
+      position: absolute;
+      margin-left: 28.5%;
+      margin-top: 24%;
+      font-size: 95px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+  
+    .labelForOther{
+      display: none;
+    }
+  
+    .ContactMeOnContacMe{
+      width: 1450px;
+      height: 411px;
+      font-size: 90px;
+      margin-left: 3%;
+      margin-top: 33.9%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20);
+      background: rgba(0, 0, 0, 0.9);
+      border-radius: 3%;
+    }
+    
+  
+    .ContactMeLeftFirstBackground{
+      width: 4095px;
+      height: 2850px;
+      }
+  
+    .ContactMeForm{
+      border-radius: 3%;
+      width: 1525px;
+      height: 1700px;
+      font-size: 70px;
+      overflow: hidden;
+      margin-left: 3.3%;
+      margin-top: 75%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .labelForContactMe{
+      position: absolute;
+      margin-left: 33%;
+      margin-top: 65%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+    .LabelForContactEmail{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 0.1%;
+      font-size: 85px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      z-index: 3;
+    }
+    .ContactMe{
+      border-radius: 3%;
+      width: 1525px;
+      height: 500px;
+      font-size: 70px;
+      margin-left: 3%;
+      margin-top: 30.9%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .labelForIntro{
+      position: absolute;
+      margin-left: 34.1%;
+      margin-top: 23.5%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+     
+    .labelForCertification{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 64.2%;
+      font-size: 87px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20);
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+      width: 82%;
+    }
+  
+    .labelForHobbies{
+     display: none;
+    }
+  
+  
+    .Introduction{
+      width: 1525px;
+      height: 615px;
+      font-size: 70px;
+      margin-left: 3.5%;
+      margin-top: 33.2%;
+      border-radius: 3%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20);
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .OtherExpirience{
+      display: none;
+    }
+  
+    .Expirience{
+      border-radius: 3%;
+      width: 1525px;
+      height: 400px;
+      font-size: 70px;
+      margin-left: 3%;
+      margin-top: 34%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .Hobbies{
+      display: NONE;
+      width: 1525px;
+      height: 500px;
+      font-size: 70px;
+      margin-left: 3.5%;
+      margin-top: 74.5%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+    
+    .mobileFormView{
+      color: white;
+    }
+     .desktopFormView{
+      display: none;
+     }
+    .audioContainer{
+      position: absolute;
+      float: left;
+      margin-left: 21%;
+      margin-top: 124%;
+      width: 875px;
+      height: 715px;
+      background: rgb(25,21,20); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      box-shadow:  0 40px 100px rgba(255,255,255, 0.01);
+      overflow: hidden;
+      color: #d5eebb;
+      margin-bottom: 1200px;
+      border-radius: 0.1%;
+      z-index: 2;
+      border-radius: 10%;
+    }
+  
+    .divIntroduction1 {
+      display: flex;
+      width: 2300px;
+      height: 785px;
+      position: relative;
+      font-size: 65px;
+      margin-left: 65px;
+      margin-top: 50px;
+      font-style: normal;
+      opacity: 0.75;
+      background: none;
+      z-index: 3;
+      margin: auto;
+      width: 92%;
+      padding: 10px;
+    }
+  
+    .divContactMe{
+      width: 1400px;
+      height: 450px;
+      position: absolute;
+      font-size: 67px;
+      margin-left: 3%; 
+      margin-top: 1%;
+      margin-right: 10px;
+      font-style: normal;
+      opacity: 0.75;
+      background: none;
+      z-index: 3;
+    }
+  
+    .Technologies{
+     width: 1525px;
+      height: 500px;
+      font-size: 70px;
+      margin-left: 3.5%;
+      border-radius: 3%;
+      margin-top: 87.5%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .labelForTechnologies{
+      position: absolute;
+      margin-left: 33%;
+      margin-top: 77.8%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20);
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+  
+    .divExpirience1  {
+      width: 1400px;
+      height: 500px;
+      position: relative;
+      font-size: 80px;
+      /* animation: mymove 6s infinite;
+      animation-delay: 5.5s; */
+      margin-left: 65px; 
+      margin-top: 40px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+  
+    .divExpirience2  {
+      width: 1400px;
+      height: 500px;
+      position: relative;
+      font-size: 60px;
+      /* animation: mymove 6s infinite;
+      animation-delay: 5.5s; */
+      margin-left: 65px; 
+      margin-top: 40px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+   
+  
+    .divCertification  {
+      width: 1155px;
+      height: 400px;
+      position: relative;
+      font-size: 65px;
+      animation: mymove 4s infinite;
+      animation-delay: 3.5s;
+      /* margin-left: 65px;  */
+      margin-left:5px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+  
+  
+    .divHobbies  {
+      width: 1400px;
+      height: 500px;
+      position: relative;
+      font-size: 70px;
+      /* animation: mymove 6s infinite;
+      animation-delay: 5.5s; */
+      margin-left: 5px; 
+      margin-top: 40px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+     
+  
+     .fontSizeForExpirience{
+      font-size: 75;
+      margin-left: 3%;
+     }
+  
+  
+    .Certification{
+     width: 1525px;
+      height: 550px;
+      font-size: 70px;
+      margin-left: 4%;
+      margin-top: 73.2%;
+      position: absolute;
+      border-radius: 3%;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20);
+      background: rgba(0, 0, 0, 0.9);
+  }
+    
+  
+    .btnSend{
+      font-size: 70px;
+      font-weight: 550;
+      font-style: normal;
+      width: 435px;
+      height: 200px;
+      margin-left: 99%;
+      margin-top: 0.5%;
+      border-radius: 9.5%;
+      color: black;
+       /* background: rgb(25,21,20);  */
+      /* background: rgba(0, 0, 0, 0.9); */
+      z-index: 15;
+    }
+  
+    .inputEmail{
+      margin-left: 7.0%;
+      margin-top: 11%;
+      width:1100px;
+      height:120px;
+      font-size: 75px;
+      color: white;
+      border-color: white;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.6)
+    }
+  
+  
+    .inputFullName{
+      margin-left: 7.0%;
+      margin-top: 12.3%;
+      width:1100px;
+      height:120px;
+      font-size: 80px;
+      color: white;
+      border-color: white;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.6)
+    }
+  
+    .inputBody{
+      margin-left: 7.0%;
+      margin-top: 11.5%;
+      width:1100px;
+      height:470px;
+      font-size: 80px;
+      color: white;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.6);
+      border-color: white;
+    }
+  
+   .homePageLeftDefaultBackground{
+      width: 100%;
+    height: 100%;
+    background: url('../images/HomePage/HomePageRight1.jpg');
+    }
+  
+    .homePageLeftSecondBackground{
+      width: 100%;
+      height: 100%;
+      background: url('../images/HomePage/HomePage1Mobile.jpg');
+    }
+  
+    .homePageLeftThirdBackground{
+      width: 100%;
+      height: 100%;
+      background: url('../images/HomePage/HomePageRight2.jpg');
+    } 
+    
+    .next {
+      right: 2.5%;
+      border-radius: 3px 0 0 3px;
+    }
+  
+    .HomepageMobileView{
+      display: block;
+      min-height: 30%;
+      font-size: 90px;
+      margin-left: 3%;
+      margin-top: 21%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: none;
+    }
+   
+    .Iframe1{
+      text-align: end;
+      width: 980px;
+      padding-bottom: 2%;
+      margin-left: 11.7%;
+      margin-top: 0.05%; 
+      z-index: 25;
+      flex: 30%;
+    }
+  
+    .Iframe2{
+      text-align: end;
+      width: 980px;
+      height: 2%;
+      padding-bottom: 2%;
+      margin-left: 11.7%;
+      z-index: 1;
+      flex: 30%;
+    }
+  
+    .Iframe3{
+      text-align: end;
+      width: 980px;
+      padding-bottom: 1.5%;
+      margin-left: 11.7%;
+      z-index: 1;
+      flex: 30%;
+  }
+  
+  .portfolioImg{
+    margin-top: -28px;
+    width: 100%; 
+    height: 600px;
+  }
+  
+  
+ 
  
  /* Samsung Galaxy S20 Xiaomi Mi 11i Huawei P30 */
  /* @media only screen and (min-width: 800 and max-width:851px){
@@ -613,4 +1249,665 @@
  } */
  
  
+ 
+ /* Responsive Layout */
+ 
+ /* Mobile Layout */
+ /* Samsung Galaxy S20 Xiaomi Mi 11i Huawei P30 */
+ @media only screen and (max-width:360px){
+   .divForPortfolio{
+        display: inline-block;
+    }
+  
+    .mySlidesContactMe{
+      display: inline-block;
+    } 
+    
+    
+    .classForIntroExpirience{
+      font-size: 60px;
+    }
+    
+    html, body{
+      display: flexbox;
+      transform: scale(50%);
+      transform-origin: top left; 
+      min-width: 200%;
+      overflow-y: scroll; 
+      overflow-x: hidden;
+      /* height: 200%;
+      min-width: 8000px; */ 
+      /* transform-origin: top left; */
+      /* transform: scale(50%);
+      */
+    } 
+  
+  
+    .main{
+      display: inline-flex;
+      flex: 1; 
+      overflow: scroll;
+    }
+    .contentLeftSide{
+      margin-bottom: 124.7%;
+      display: flex;
+      position: fixed;
+      width: 100%;
+    }
+  
+    .text{
+      margin-right: 40px;
+      margin-left: 1%;
+      padding-bottom: 10px;
+      color: white;
+      font-style: normal;
+      font-size: 80px;
+      display: inline;
+  }
+  
+  .fadeLeftBackground {
+    animation-name: fadeLeftBackground;
+    animation-duration: 3.5s;
+    animation-direction: reverse;
+  }
+  
+  /* @keyframes fadeLeftBackground {
+    from {opacity: 1} 
+    to {opacity: .4}
+  } */
+  
+  .linkClass{
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    font-size: 75px;
+  }
+  
+   .labelProjects{
+      margin-left: 58%;
+      margin-top: 34.5%;
+      width: 41.5%;
+      font-size: 115px;
+      color: white;
+      background: rgb(25,21,20);
+      background: rgba(0, 0, 0, 0.3);  /*Black background with 0.5 opacity */
+    }
+  
+    .LabelForContactFullName{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 1%;
+      font-size: 85px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      z-index: 3;
+    }
+  
+    .LabelForContactBody{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 1%;
+      font-size: 85px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      z-index: 3;
+    }
+  
+  
+    .LabelForContactMeForm{
+      position: absolute;
+      margin-left: 30%;
+      margin-top: 24%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+  
+    .labelForExpirience{
+      position: absolute;
+      margin-left: 28.5%;
+      margin-top: 24%;
+      font-size: 95px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+  
+    .labelForOther{
+      display: none;
+    }
+  
+    .ContactMeOnContacMe{
+      width: 1336px;
+      height: 411px;
+      font-size: 90px;
+      margin-left: 3%;
+      margin-top: 33.9%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20);
+      background: rgba(0, 0, 0, 0.9);
+      border-radius: 3%;
+    }
+    
+  
+    .ContactMeLeftFirstBackground{
+      width: 4095px;
+      height: 2850px;
+      }
+  
+    .ContactMeForm{
+      border-radius: 3%;
+      width: 1310px;
+      height: 1700px;
+      font-size: 70px;
+      overflow: hidden;
+      margin-left: 4.85%;
+      margin-top: 75%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .labelForContactMe{
+      position: absolute;
+      margin-left: 33%;
+      margin-top: 65%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+    .LabelForContactEmail{
+      position: absolute;
+      margin-left: 9%;
+      margin-top: 0.1%;
+      font-size: 85px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      z-index: 3;
+    }
+    .ContactMe{
+      border-radius: 3%;
+      width: 1345px;
+      height: 500px;
+      font-size: 70px;
+      margin-left: 3%;
+      margin-top: 30.9%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .labelForIntro{
+      position: absolute;
+      margin-left: 34.1%;
+      margin-top: 23.5%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+     
+    .labelForCertification{
+      position: absolute;
+      margin-left: 4.5%;
+      margin-top: 64.2%;
+      font-size: 87px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20);
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+      width: 90%;
+    }
+  
+    .labelForHobbies{
+     display: none;
+    }
+  
+  
+    .Introduction{
+      width: 1345px;
+      height: 615px;
+      font-size: 70px;
+      margin-left: 3%;
+      margin-top: 33.2%;
+      border-radius: 3%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20);
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .OtherExpirience{
+      display: none;
+    }
+  
+    .Expirience{
+      border-radius: 3%;
+      width: 1345px;
+      height: 400px;
+      font-size: 70px;
+      margin-left: 3%;
+      margin-top: 34%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .Hobbies{
+      display: NONE;
+      width: 1345px;
+      height: 500px;
+      font-size: 70px;
+      margin-left: 3%;
+      margin-top: 74.5%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+    
+    .mobileFormView{
+      color: white;
+    }
+     .desktopFormView{
+      display: none;
+     }
+    .audioContainer{
+      position: absolute;
+      float: left;
+      margin-left: 21%;
+      margin-top: 130%;
+      width: 875px;
+      height: 715px;
+      background: rgb(25,21,20); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      box-shadow:  0 40px 100px rgba(255,255,255, 0.01);
+      overflow: hidden;
+      color: #d5eebb;
+      margin-bottom: 1200px;
+      border-radius: 0.1%;
+      z-index: 2;
+      border-radius: 10%;
+    }
+  
+    .divIntroduction1 {
+      display: flex;
+      width: 2300px;
+      height: 785px;
+      position: relative;
+      font-size: 65px;
+      margin-left: 65px;
+      margin-top: 50px;
+      font-style: normal;
+      opacity: 0.75;
+      background: none;
+      z-index: 3;
+      margin: auto;
+      width: 92%;
+      padding: 10px;
+    }
+  
+    .divContactMe{
+      width: 1400px;
+      height: 450px;
+      position: absolute;
+      font-size: 67px;
+      margin-left: 3%; 
+      margin-top: 1%;
+      margin-right: 10px;
+      font-style: normal;
+      opacity: 0.75;
+      background: none;
+      z-index: 3;
+    }
+  
+    .Technologies{
+      width: 1345px;
+      height: 500px;
+      font-size: 70px;
+      margin-left: 3%;
+      border-radius: 3%;
+      margin-top: 87.5%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  
+    .labelForTechnologies{
+      position: absolute;
+      margin-left: 33%;
+      margin-top: 77.8%;
+      font-size: 100px;
+      font-style: normal;
+      color: white;
+      opacity: 0.9;
+      background: rgb(25,21,20);
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+    }
+  
+    .divExpirience1  {
+      width: 1400px;
+      height: 500px;
+      position: relative;
+      font-size: 80px;
+      /* animation: mymove 6s infinite;
+      animation-delay: 5.5s; */
+      margin-left: 65px; 
+      margin-top: 40px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+  
+    .divExpirience2  {
+      width: 1400px;
+      height: 500px;
+      position: relative;
+      font-size: 60px;
+      /* animation: mymove 6s infinite;
+      animation-delay: 5.5s; */
+      margin-left: 65px; 
+      margin-top: 40px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+   
+  
+    .divCertification  {
+      width: 1155px;
+      height: 400px;
+      position: relative;
+      font-size: 65px;
+      animation: mymove 4s infinite;
+      animation-delay: 3.5s;
+      /* margin-left: 65px;  */
+      margin-left:5px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+  
+  
+    .divHobbies  {
+      width: 1400px;
+      height: 500px;
+      position: relative;
+      font-size: 70px;
+      /* animation: mymove 6s infinite;
+      animation-delay: 5.5s; */
+      margin-left: 5px; 
+      margin-top: 40px;
+      font-style: normal;
+      /* opacity: 0.75; */
+      background: none;
+      z-index: 3;
+    }
+     
+  
+     .fontSizeForExpirience{
+      font-size: 75;
+      margin-left: 3%;
+     }
+  
+  
+    .Certification{
+      width: 1345px;
+      height: 550px;
+      font-size: 70px;
+      margin-left: 4%;
+      margin-top: 73.2%;
+      position: absolute;
+      border-radius: 3%;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20);
+      background: rgba(0, 0, 0, 0.9);
+  }
+  
+  
+    .btnSend{
+      font-size: 70px;
+      font-weight: 550;
+      font-style: normal;
+      width: 435px;
+      height: 200px;
+      margin-left: 99%;
+      margin-top: 0.5%;
+      border-radius: 9.5%;
+      color: black;
+       /* background: rgb(25,21,20);  */
+      /* background: rgba(0, 0, 0, 0.9); */
+      z-index: 15;
+    }
+  
+    .inputEmail{
+      margin-left: 7.0%;
+      margin-top: 11%;
+      width:1100px;
+      height:120px;
+      font-size: 75px;
+      color: white;
+      border-color: white;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.6)
+    }
+  
+  
+    .inputFullName{
+      margin-left: 7.0%;
+      margin-top: 12.3%;
+      width:1100px;
+      height:120px;
+      font-size: 80px;
+      color: white;
+      border-color: white;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.6)
+    }
+  
+    .inputBody{
+      margin-left: 7.0%;
+      margin-top: 11.5%;
+      width:1100px;
+      height:470px;
+      font-size: 80px;
+      color: white;
+      background: rgb(25,21,20); 
+      background: rgba(0, 0, 0, 0.6);
+      border-color: white;
+    }
+  
+   .homePageLeftDefaultBackground{
+      width: 100%;
+    height: 100%;
+    background: url('../images/HomePage/HomePageRight1.jpg');
+    }
+  
+    .homePageLeftSecondBackground{
+      width: 100%;
+      height: 100%;
+      background: url('../images/HomePage/HomePage1Mobile.jpg');
+    }
+  
+    .homePageLeftThirdBackground{
+      width: 100%;
+      height: 100%;
+      background: url('../images/HomePage/HomePageRight2.jpg');
+    } 
+    
+    .next {
+      right: 2.5%;
+      border-radius: 3px 0 0 3px;
+    }
+  
+    .HomepageMobileView{
+      display: block;
+      min-height: 30%;
+      font-size: 90px;
+      margin-left: 3%;
+      margin-top: 21%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: none;
+    }
+   
+    .Iframe1{
+      text-align: end;
+      width: 980px;
+      padding-bottom: 2%;
+      margin-left: 11.7%;
+      margin-top: 0.05%; 
+      z-index: 25;
+      flex: 30%;
+    }
+  
+    .Iframe2{
+      text-align: end;
+      width: 980px;
+      height: 2%;
+      padding-bottom: 2%;
+      margin-left: 11.7%;
+      z-index: 1;
+      flex: 30%;
+    }
+  
+    .Iframe3{
+      text-align: end;
+      width: 980px;
+      padding-bottom: 1.5%;
+      margin-left: 11.7%;
+      z-index: 1;
+      flex: 30%;
+  }
+  
+  .portfolioImg{
+    margin-top: -28px;
+    width: 100%; 
+    height: 600px;
+  }
+  
+ }
+  
+  
+  
+  /* Samsung Galaxy S20 Xiaomi Mi 11i Huawei P30 */
+  /* @media only screen and (min-width: 800 and max-width:851px){
+  
+    .Introduction{
+      width: 1435px;
+      height: 800px;
+      font-size: 90px;
+      margin-left: 3%;
+      margin-top: 31%;
+      position: absolute;
+      opacity: 0.75;
+      overflow: hidden;
+      z-index: 3;
+      color: white;
+      background: rgb(30,21,20); 
+      background: rgba(0, 0, 0, 0.9);
+    }
+  } */
+  
+  /* @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      color: white;
+      z-index: 500;
+    }
+  } */
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  /* @media only screen and (max-width: 768px) {
+    background-color: olive;
+  } */
+  
+  
+  
+  /* Media Queries: Tabled Portrait */
+  /* @media screen and (max-width: 768px) {
+    .HomePageLeft { width:100%; }
+    .HomePageRight { width:100%; margin:0; border:none; }
+  } */
+  
+  img { max-width: 100%; height: auto; }
+  
+  
+  /* 
+   @media (max-device-width:1200px) {
+    .HomePageRight{
+      display: none;
+    }
+  }  */
+  
+  
+  /* @media (min-device-width:1200px) {
+    .HomePageRight{
+      display: flex;
+    }
+  }  */
+  /* 
+  @media (max-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+  } */
+  
+  
+  
  
