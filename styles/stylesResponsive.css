@@ -672,7 +672,7 @@
 
 .LabelForContactFullName {
   position: absolute;
-  margin-left: 8.5%;
+  margin-left: 7.5%;
   margin-top: 10%;
   font-size: 85px;
   font-style: normal;
@@ -2833,7 +2833,7 @@
      z-index: 3;
    }
  
-   .divExpirience2  {
+   .divExpirience2{
      width: 1400px;
      height: 500px;
      position: relative;

@@ -75,7 +75,7 @@ function SlideTextCertificationIndividual1() {
   newslideIndexCertificationIndividual1++;
 
   if (newslideIndexCertificationIndividual1 > slides.length) {newslideIndexCertificationIndividual1= 1}  
-  slides[newslideIndexCertificationIndividual-1].style.display = "block";
+  slides[newslideIndexCertificationIndividual1-1].style.display = "block";
   setTimeout(SlideTextCertificationIndividual1, 6000); // Change image every 5 seconds
 }
 
@@ -94,6 +94,8 @@ function SlideTextCertificationIndividual2() {
   slides[newslideIndexCertificationIndividual2-1].style.display = "block";
   setTimeout(SlideTextCertificationIndividual2, 6000); // Change image every 5 seconds
 }
+
+
 
 let slideIndex = 0;
 showSlides();
@@ -142,7 +144,7 @@ function showSlidesContactMeOther() {
   slideIndex11++;
   if (slideIndex11 > slides.length) {slideIndex11 = 1}    
   slides[slideIndex11-1].style.display = "block";  
-  setTimeout(showSlidesContactMeOther, 24000); // Change image every 48 seconds
+  setTimeout(showSlidesContactMeOther, 36000); // Change image every 48 seconds
 }
 
 
