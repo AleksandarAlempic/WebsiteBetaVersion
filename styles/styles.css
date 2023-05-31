@@ -758,8 +758,8 @@ ul {
              height: 500px;
              position: relative;
              font-size: 85px;
-             animation: mymove 4s infinite;
-             animation-delay: 3.5s;
+             animation: mymove 6s infinite;
+             animation-delay: 5.5s;
              /* margin-left: 65px;  */
              margin-top: 40px;
              font-style: normal;
@@ -1102,7 +1102,7 @@ for the disk in the Middle
 
 .fadeAboutMe {
  animation-name: fadeAboutMe;
- animation-duration: 5s;
+ animation-duration: 7s;
  animation-direction: alternate;
 }
 

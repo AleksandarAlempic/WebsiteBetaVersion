@@ -2854,8 +2854,8 @@
      height: 400px;
      position: relative;
      font-size: 65px;
-     animation: mymove 4s infinite;
-     animation-delay: 3.5s;
+     animation: mymove 6s infinite;
+     animation-delay: 5.5s;
      /* margin-left: 65px;  */
      margin-left:5px;
      font-style: normal;
@@ -3448,8 +3448,8 @@
      height: 400px;
      position: relative;
      font-size: 65px;
-     animation: mymove 4s infinite;
-     animation-delay: 3.5s;
+     animation: mymove 6s infinite;
+     animation-delay: 5.5s;
      /* margin-left: 65px;  */
      margin-left:5px;
      font-style: normal;
@@ -4107,8 +4107,8 @@ img { max-width: 100%; height: auto; }
      height: 400px;
      position: relative;
      font-size: 65px;
-     animation: mymove 4s infinite;
-     animation-delay: 3.5s;
+     animation: mymove 6s infinite;
+     animation-delay: 5.5s;
      /* margin-left: 65px;  */
      margin-left:5px;
      font-style: normal;
@@ -5072,8 +5072,8 @@ font-size: 75px;
   height: 400px;
   position: relative;
   font-size: 65px;
-  animation: mymove 4s infinite;
-  animation-delay: 3.5s;
+  animation: mymove 6s infinite;
+  animation-delay: 5.5s;
   /* margin-left: 65px;  */
   margin-left:5px;
   font-style: normal;
