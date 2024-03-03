@@ -614,6 +614,168 @@
   
         }
 
+      /*Devices between 414 and 1486 px divided in groups (414px - 458px) - (458px - 550px) etc.*/
+@media (min-width: 414px) and (max-width: 458px) {
+     
+  .Hobbies{
+    display: none;
+  }
+
+  .labelForHobbies{
+    display: none;
+  }
+
+  .labelForTechnologies {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 70.7%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+  
+  .Technologies{
+    width: 1600px;
+    height: 455px;
+    font-size: 70px;
+    margin-left: 3%;
+    border-radius: 3%;
+    margin-top: 79.5%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .labelForIntro{
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 24.9%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+     
+  .Introduction {
+    border-radius: 3%;
+    width: 1600px;
+    height: 575px;
+    font-size: 90px;
+    margin-left: 2.65%;
+    margin-top: 34%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+
+
+
+  .Expirience{
+    border-radius: 3%;
+    width: 1600px;
+    height: 580px;
+    font-size: 70px;
+    margin-left: 3%;
+    margin-top: 35.5%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .labelForExpirience {
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 25.85%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+}
+
+.Certification{
+  width: 1600px;
+  height: 650px;
+  font-size: 70px;
+  margin-left: 4%;
+  margin-top: 77.5%;
+  position: absolute;
+  border-radius: 3%;
+  opacity: 0.75;
+  overflow: hidden;
+  z-index: 3;
+  color: white;
+  background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+  .labelForCertification {
+    position: absolute;
+    margin-left: 10.8%;
+    margin-top: 70.5%;
+    font-size: 87px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    width: 77%;
+}
+.audioContainer{
+  position: absolute;
+  float: left;
+  margin-left: 25%;
+  margin-top: 117%;
+  width: 875px;
+  height: 715px;
+  background: rgb(25,21,20); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  box-shadow:  0 40px 100px rgba(255,255,255, 0.01);
+  overflow: hidden;
+  color: #d5eebb;
+  margin-bottom: 1200px;
+  border-radius: 0.1%;
+  z-index: 2;
+  border-radius: 10%;
+}
+
+.OtherExpirience{
+  display: none;
+}
+
+.labelForOther{
+  display: none;
+}
+
+
+
+}
+
+
+
         
  @media (min-width: 427px) and (max-width: 429px) {
   
