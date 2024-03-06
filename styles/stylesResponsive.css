@@ -781,6 +781,8 @@
 
 }
 
+
+
 @media (min-width: 458px) and (max-width: 550px) {
      
   .contentLeftSide{
@@ -912,7 +914,7 @@
     background: rgb(25,21,20);
     background: rgba(0, 0, 0, 0.8);
     z-index: 3;
-    width: 69.5%;
+    width: 71.5%;
 }
 .audioContainer{
   position: absolute;
