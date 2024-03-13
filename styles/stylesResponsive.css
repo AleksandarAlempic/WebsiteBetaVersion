@@ -24,6 +24,10 @@
     }
 
     
+   
+
+
+    
 
     @media only screen and (min-width:1700px){
       html, body {
@@ -1452,23 +1456,23 @@
       
         .labelForTechnologies {
           position: absolute;
-          margin-left: 36.5%;
-          margin-top: 54.5%;
+          margin-left: 41.5%;
+          margin-top: 43.5%;
           font-size: 100px;
           font-style: normal;
           color: white;
           opacity: 0.9;
-          background: yellow;
-          background: yellow;
+          background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
           z-index: 3;
         }
         
         .Technologies{
-          width: 1900px;
+          width: 2350px;
           height: 455px;
           font-size: 70px;
-          margin-left: 13%;
-          margin-top: 61.5%;
+          margin-left: 15%;
+          margin-top: 48.5%;
           border-radius: 3%;
           position: absolute;
           opacity: 0.75;
@@ -1476,29 +1480,29 @@
           z-index: 3;
           color: white;
           background: rgb(25,21,20);
-        background: rgba(0, 0, 0, 0.8);
+          background: rgba(0, 0, 0, 0.8);
         }
       
         .labelForIntro{
           position: absolute;
-          margin-left: 36.5%;
-          margin-top: 15.85%;
+          margin-left: 41.5%;
+          margin-top: 12.85%;
           font-size: 100px;
           font-style: normal;
           color: white;
           opacity: 0.9;
           background: rgb(25,21,20);
-        background: rgba(0, 0, 0, 0.8);
+          background: rgba(0, 0, 0, 0.8);
           z-index: 3;
         }
            
         .Introduction {
           border-radius: 3%;
-          width: 1900px;
+          width: 2350px;
           height: 800px;
           font-size: 90px;
           margin-left: 13%;
-          margin-top: 22.5%;
+          margin-top: 18.5%;
           position: absolute;
           opacity: 0.75;
           overflow: hidden;
@@ -1595,7 +1599,170 @@
       
       }
     
+      @media (min-width: 850px) and (max-width: 1000px) {
   
+  
+        .contentLeftSide{
+          margin-bottom: 124.7%;
+            display: flex;
+            position: fixed;
+            width: 100%;
+        }
+        
+          .Hobbies{
+            display: none;
+          }
+        
+          .labelForHobbies{
+            display: none;
+          }
+        
+          .labelForTechnologies {
+            position: absolute;
+            margin-left: 36.5%;
+            margin-top: 54.5%;
+            font-size: 100px;
+            font-style: normal;
+            color: white;
+            opacity: 0.9;
+            background: yellow;
+            background: yellow;
+            z-index: 3;
+          }
+          
+          .Technologies{
+            width: 1900px;
+            height: 455px;
+            font-size: 70px;
+            margin-left: 13%;
+            margin-top: 61.5%;
+            border-radius: 3%;
+            position: absolute;
+            opacity: 0.75;
+            overflow: hidden;
+            z-index: 3;
+            color: white;
+            background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
+          }
+        
+          .labelForIntro{
+            position: absolute;
+            margin-left: 36.5%;
+            margin-top: 15.85%;
+            font-size: 100px;
+            font-style: normal;
+            color: white;
+            opacity: 0.9;
+            background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
+            z-index: 3;
+          }
+             
+          .Introduction {
+            border-radius: 3%;
+            width: 1900px;
+            height: 800px;
+            font-size: 90px;
+            margin-left: 13%;
+            margin-top: 22.5%;
+            position: absolute;
+            opacity: 0.75;
+            overflow: hidden;
+            z-index: 3;
+            color: white;
+            background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
+          }
+        
+          .Expirience{
+            border-radius: 3%;
+            width: 2350px;
+            height: 580px;
+            font-size: 70px;
+            margin-left: 13%;
+            margin-top: 18%;
+            position: absolute;
+            opacity: 0.75;
+            overflow: hidden;
+            z-index: 3;
+            color: white;
+            background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
+          }
+        
+          .labelForExpirience {
+            position: absolute;
+            margin-left: 36.5%;
+            margin-top: 12%;
+            font-size: 100px;
+            font-style: normal;
+            color: white;
+            opacity: 0.9;
+            background: rgb(25,21,20);
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 3;
+        }
+        
+        .Certification{
+          width: 2350px;
+          height: 650px;
+          font-size: 70px;
+          margin-left: 13%;
+          margin-top: 44%;
+          position: absolute;
+          border-radius: 3%;
+          opacity: 0.75;
+          overflow: hidden;
+          z-index: 3;
+          color: white;
+          background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
+        }
+        
+          .labelForCertification {
+            position: absolute;
+            margin-left: 20.8%;
+            margin-top: 39%;
+            font-size: 87px;
+            font-style: normal;
+            color: white;
+            opacity: 0.9;
+            background: rgb(25,21,20);
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 3;
+            width: 58.5%;
+        }
+      
+        .audioContainer{
+          position: absolute;
+          float: left;
+          margin-left: 35%;
+          margin-top: 65%;
+          width: 875px;
+          height: 715px;
+          background: rgb(25,21,20); /* Fallback color */
+          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+          box-shadow:  0 40px 100px rgba(255,255,255, 0.01);
+          overflow: hidden;
+          color: #d5eebb;
+          margin-bottom: 1200px;
+          border-radius: 0.1%;
+          z-index: 2;
+          border-radius: 10%;
+        }
+        
+        .OtherExpirience{
+          display: none;
+        }
+        
+        .labelForOther{
+          display: none;
+        }
+        
+        }
+      
+     
   
 
         
@@ -5448,6 +5615,21 @@ img { max-width: 100%; height: auto; }
    
  }
 
+ @media only screen and (max-width: 393px){
+.labelForCertification {
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 64.2%;
+    font-size: 87px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25, 21, 20);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    width: 104%;
+}
+ }
 
 @media (min-width: 315px) and (max-width: 325px) {
   .divForPortfolio{
@@ -5565,7 +5747,7 @@ img { max-width: 100%; height: auto; }
   background: rgb(25,21,20);
   background: rgba(0, 0, 0, 0.8);
   z-index: 3;
-  width: 90%;
+  width: 94%;
 }
 
 .Introduction {
