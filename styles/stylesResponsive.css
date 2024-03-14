@@ -5624,28 +5624,13 @@ img { max-width: 100%; height: auto; }
     font-style: normal;
     color: white;
     opacity: 0.9;
-    background: rgb(25, 21, 20);
-    background: rgba(0, 0, 0, 0.8);
+    background: yellow;
+    background: yellow;
     z-index: 3;
     width: 350%;
 }
  }
 
- @media only screen and (max-width: 393px){
-.labelForCertification {
-    position: absolute;
-    margin-left: 9%;
-    margin-top: 64.2%;
-    font-size: 87px;
-    font-style: normal;
-    color: white;
-    opacity: 0.9;
-    background: rgb(25, 21, 20);
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 3;
-    width: 143%;
-}
- }
 
 @media (min-width: 315px) and (max-width: 325px) {
   .divForPortfolio{
