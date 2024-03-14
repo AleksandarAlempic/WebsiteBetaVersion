@@ -5624,8 +5624,8 @@ img { max-width: 100%; height: auto; }
     font-style: normal;
     color: white;
     opacity: 0.9;
-    background: yellow;
-    background: yellow;
+    background: rgb(30,21,20);
+    background: rgba(0, 0, 0, 0.9);
     z-index: 3;
     width: 350%;
 }
