@@ -1625,8 +1625,8 @@
             font-style: normal;
             color: white;
             opacity: 0.9;
-            background: yellow;
-            background: yellow;
+            background: rgb(25,21,20);
+          background: rgba(0, 0, 0, 0.8);
             z-index: 3;
           }
           
