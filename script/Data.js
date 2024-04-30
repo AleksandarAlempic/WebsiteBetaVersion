@@ -1,6 +1,5 @@
 
 let songs = [
-
    {
       name: 'Alive',
       path: 'audio/Sia - Alive (Official Video).mp3',
