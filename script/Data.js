@@ -75,14 +75,6 @@ let songs = [
       cover: 'images/audio/NellyFurtado.jpg'
    }, 
 
-    {
-      name: 'Gimme! Gimme!',
-      path: 'audio/ABBA - Gimme! Gimme! Gimme! (A Man After Midnight).mp3',
-      artist: 'ABBA',
-      cover: 'images/audio/ABBA-GimmeGimmeGimme-video.png'
-    },
-  
-
    {
       name: 'Calling On Me',
       path: 'audio/Sean Paul, Tove Lo - Calling On Me (128 kbps).mp3',
@@ -91,10 +83,31 @@ let songs = [
    },
 
    {
+      name: 'Vracaju se dani pobede',
+      path: 'audio/Grupa JNA - Vracaju se dani pobede.mp3',
+      artist: '',
+      cover: 'images/audio/GrupaJNA.jpg'
+   },
+
+    {
+      name: 'Gimme! Gimme!',
+      path: 'audio/ABBA - Gimme! Gimme! Gimme! (A Man After Midnight).mp3',
+      artist: 'ABBA',
+      cover: 'images/audio/ABBA-GimmeGimmeGimme-video.png'
+    },  
+
+   {
       name: 'Jutro je',
       path: 'audio/Nada Topcagic - Jutro je - (Audio 1990) HD (128 kbps).mp3',
       artist: 'Nada Topcagic',
       cover: 'images/audio/NadaTopcagic.jpg'
+   },
+
+   {
+      name: 'U inat proslosti',
+      path: 'audio/Aleksandra Radovic & The Beatshakers - Who Gonna Stop Me Now (Official HD Video).mp3',
+      artist: 'Aleksandra Radovic',
+      cover: 'images/audio/AleksandraRadovic.jpg'
    },
  
    {
@@ -104,15 +117,6 @@ let songs = [
       cover: 'images/audio/LegendeNePitaj.jpg'
    },
 
-  
-
-  
-  
-
-  
-
-
-  
    
-     
+
 ]
